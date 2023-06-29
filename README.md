@@ -24,5 +24,5 @@ Esse foi meu primeiro projeto, desenvolvi a Calculadora de IMC para exercitar os
 - String resource
 - Float resource
 
-## *Author*
+## **Author**
 Leví Marra (Follow me on [Linkedin](https://www.linkedin.com/in/levimarra/))
