@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:text="Seu IMC é:"
+        android:textSize="30dp"
+        android:id="@+id/seuIMC"
+        android:fontFamily="@font/requema"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seuIMC"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/resultTextView"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/tabelaimc" />
+
+
+</RelativeLayout>
